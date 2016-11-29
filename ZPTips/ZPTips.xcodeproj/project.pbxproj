@@ -13,10 +13,11 @@
 		431EED901DED25F500C96133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431EED8E1DED25F500C96133 /* Main.storyboard */; };
 		431EED921DED25F500C96133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431EED911DED25F500C96133 /* Assets.xcassets */; };
 		431EED951DED25F500C96133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431EED931DED25F500C96133 /* LaunchScreen.storyboard */; };
-		431EED9E1DED273500C96133 /* UIView+CustomRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = 431EED9D1DED273500C96133 /* UIView+CustomRadio.m */; };
-		431EEDA11DED32E500C96133 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 431EEDA01DED32E500C96133 /* UIImage+Extension.m */; };
 		431EEDA41DED421200C96133 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 431EEDA31DED421200C96133 /* WebViewController.m */; };
 		431EEDA71DED452C00C96133 /* ModalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 431EEDA61DED452C00C96133 /* ModalController.m */; };
+		431EEDB01DED4F2700C96133 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 431EEDAD1DED4F2700C96133 /* UIImage+Extension.m */; };
+		431EEDB11DED4F2700C96133 /* UIView+CustomRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = 431EEDAF1DED4F2700C96133 /* UIView+CustomRadio.m */; };
+		431EEDB41DED4F3500C96133 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 431EEDB31DED4F3500C96133 /* NSString+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +31,16 @@
 		431EED911DED25F500C96133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		431EED941DED25F500C96133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		431EED961DED25F500C96133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		431EED9C1DED273500C96133 /* UIView+CustomRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomRadio.h"; sourceTree = "<group>"; };
-		431EED9D1DED273500C96133 /* UIView+CustomRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomRadio.m"; sourceTree = "<group>"; };
-		431EED9F1DED32E500C96133 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		431EEDA01DED32E500C96133 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		431EEDA21DED421200C96133 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		431EEDA31DED421200C96133 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		431EEDA51DED452C00C96133 /* ModalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalController.h; sourceTree = "<group>"; };
 		431EEDA61DED452C00C96133 /* ModalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalController.m; sourceTree = "<group>"; };
+		431EEDAC1DED4F2700C96133 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		431EEDAD1DED4F2700C96133 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		431EEDAE1DED4F2700C96133 /* UIView+CustomRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomRadio.h"; sourceTree = "<group>"; };
+		431EEDAF1DED4F2700C96133 /* UIView+CustomRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomRadio.m"; sourceTree = "<group>"; };
+		431EEDB21DED4F3500C96133 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		431EEDB31DED4F3500C96133 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +73,7 @@
 		431EED841DED25F500C96133 /* ZPTips */ = {
 			isa = PBXGroup;
 			children = (
-				431EED9C1DED273500C96133 /* UIView+CustomRadio.h */,
-				431EED9D1DED273500C96133 /* UIView+CustomRadio.m */,
-				431EED9F1DED32E500C96133 /* UIImage+Extension.h */,
-				431EEDA01DED32E500C96133 /* UIImage+Extension.m */,
+				431EEDAB1DED4F2700C96133 /* 扩展 */,
 				431EEDA51DED452C00C96133 /* ModalController.h */,
 				431EEDA61DED452C00C96133 /* ModalController.m */,
 				431EED881DED25F500C96133 /* AppDelegate.h */,
@@ -97,6 +97,19 @@
 				431EED861DED25F500C96133 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		431EEDAB1DED4F2700C96133 /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				431EEDAC1DED4F2700C96133 /* UIImage+Extension.h */,
+				431EEDAD1DED4F2700C96133 /* UIImage+Extension.m */,
+				431EEDAE1DED4F2700C96133 /* UIView+CustomRadio.h */,
+				431EEDAF1DED4F2700C96133 /* UIView+CustomRadio.m */,
+				431EEDB21DED4F3500C96133 /* NSString+Extension.h */,
+				431EEDB31DED4F3500C96133 /* NSString+Extension.m */,
+			);
+			path = "扩展";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,13 +183,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				431EEDA11DED32E500C96133 /* UIImage+Extension.m in Sources */,
 				431EEDA41DED421200C96133 /* WebViewController.m in Sources */,
 				431EED8D1DED25F500C96133 /* ViewController.m in Sources */,
 				431EEDA71DED452C00C96133 /* ModalController.m in Sources */,
-				431EED9E1DED273500C96133 /* UIView+CustomRadio.m in Sources */,
+				431EEDB01DED4F2700C96133 /* UIImage+Extension.m in Sources */,
+				431EEDB11DED4F2700C96133 /* UIView+CustomRadio.m in Sources */,
 				431EED8A1DED25F500C96133 /* AppDelegate.m in Sources */,
 				431EED871DED25F500C96133 /* main.m in Sources */,
+				431EEDB41DED4F3500C96133 /* NSString+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +345,7 @@
 				431EED9B1DED25F500C96133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

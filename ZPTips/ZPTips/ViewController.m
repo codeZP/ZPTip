@@ -10,6 +10,7 @@
 #import "UIView+CustomRadio.h"
 #import "UIImage+Extension.h"
 #import "ModalController.h"
+#import "NSString+Extension.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UIButton *button;
@@ -33,6 +34,8 @@ static CGFloat totalH = 200 - 64;
     //控制局部圆角问题
     [self.button customRadionWithCornerType:UIRectCornerTopRight | UIRectCornerTopLeft radio:10];
     self.tableView.contentInset = UIEdgeInsetsMake(240, 0, 0, 0);
+    NSString *ceshi = @"http://pic.qiantucdn.com/58pic/12/58/81/17d58PICJHV.gif";
+    NSLog(@"%@", ceshi.contentTypeForImage);
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
