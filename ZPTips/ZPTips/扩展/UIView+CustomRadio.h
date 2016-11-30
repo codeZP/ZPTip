@@ -11,6 +11,9 @@
 @interface UIView (CustomRadio)
 
 //控制局部圆角问题
-- (void)customRadionWithCornerType:(UIRectCorner )corner radio:(CGFloat)radio;
+- (void)customRadionWithCornerType:(nonnull  UIRectCorner )corner radio:(nonnull  CGFloat)radio;
+
+//判断view是不是制定view的子视图
+- (BOOL)isChildViewWith:(nonnull UIView *)view;
 
 @end

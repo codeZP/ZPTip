@@ -10,7 +10,7 @@
 
 @implementation UIImage (Extension)
 
-+ (UIImage *)imageWithColor:(UIColor *)color {
++ (nonnull  UIImage *)imageWithColor:(nonnull  UIColor *)color {
     CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f); //宽高 1.0只要有值就够了
     UIGraphicsBeginImageContext(rect.size); //在这个范围内开启一段上下文
     CGContextRef context = UIGraphicsGetCurrentContext();

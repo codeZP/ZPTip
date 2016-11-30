@@ -41,4 +41,40 @@
     return nil;
 }
 
+- (NSString * _Nullable)reverseString {
+    NSMutableString *newString = [[NSMutableString alloc] initWithCapacity:self.length];
+    for (NSInteger i = self.length - 1; i >= 0; i--) {
+        unichar ch = [self characterAtIndex:i];
+        [newString appendFormat:@"%c", ch];
+    }
+    return newString;
+}
+
+- (NSString *)reverseInString {
+    NSMutableString *reverString = [NSMutableString stringWithCapacity:self.length];
+    [self enumerateSubstringsInRange:NSMakeRange(0, self.length) options:NSStringEnumerationReverse | NSStringEnumerationByComposedCharacterSequences  usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
+        [reverString appendString:substring];
+    }];
+    return reverString;
+}
+
+- (NSString * _Nullable)chinaTransformWithPhoneticSymbol {
+    //将NSString装换成NSMutableString
+    NSMutableString *pinyin = [self mutableCopy];
+    //将汉字转换为拼音(带音标)
+    CFStringTransform((__bridge CFMutableStringRef)pinyin, NULL, kCFStringTransformMandarinLatin, NO);
+    return pinyin;
+}
+
+- (NSString * _Nullable)chinaTransForm {
+    //将NSString装换成NSMutableString
+    NSMutableString *pinyin = [self mutableCopy];
+    //将汉字转换为拼音(带音标)
+    CFStringTransform((__bridge CFMutableStringRef)pinyin, NULL, kCFStringTransformMandarinLatin, NO);
+    //去掉拼音的音标
+    CFStringTransform((__bridge CFMutableStringRef)pinyin, NULL, kCFStringTransformStripDiacritics, NO);
+    //返回最近结果
+    return pinyin;
+}
+
 @end

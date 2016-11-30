@@ -10,6 +10,8 @@
 
 @interface UIImage (Extension)
 
-+ (UIImage *)imageWithColor:(UIColor *)color;
+//通过一个颜色创建一个图片
++ (nonnull  UIImage *)imageWithColor:(nonnull  UIColor *)color;
+
 
 @end

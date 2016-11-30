@@ -26,6 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //给webView添加头部视图
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"]]];
     UIView *webBrowSerView = self.webView.scrollView.subviews[0]; //拿到webView的webBrowserView
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];

@@ -18,6 +18,8 @@
 		431EEDB01DED4F2700C96133 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 431EEDAD1DED4F2700C96133 /* UIImage+Extension.m */; };
 		431EEDB11DED4F2700C96133 /* UIView+CustomRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = 431EEDAF1DED4F2700C96133 /* UIView+CustomRadio.m */; };
 		431EEDB41DED4F3500C96133 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 431EEDB31DED4F3500C96133 /* NSString+Extension.m */; };
+		43301ED41DEE5A480043A890 /* GroupTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43301ED31DEE5A480043A890 /* GroupTableController.m */; };
+		43301ED71DEE6D410043A890 /* UIApplication+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 43301ED61DEE6D410043A890 /* UIApplication+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,11 @@
 		431EEDAF1DED4F2700C96133 /* UIView+CustomRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomRadio.m"; sourceTree = "<group>"; };
 		431EEDB21DED4F3500C96133 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		431EEDB31DED4F3500C96133 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		43301ED21DEE5A480043A890 /* GroupTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupTableController.h; sourceTree = "<group>"; };
+		43301ED31DEE5A480043A890 /* GroupTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTableController.m; sourceTree = "<group>"; };
+		43301ED51DEE6D410043A890 /* UIApplication+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Extension.h"; sourceTree = "<group>"; };
+		43301ED61DEE6D410043A890 /* UIApplication+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Extension.m"; sourceTree = "<group>"; };
+		43301EDB1DEE6E700043A890 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +89,8 @@
 				431EED8C1DED25F500C96133 /* ViewController.m */,
 				431EEDA21DED421200C96133 /* WebViewController.h */,
 				431EEDA31DED421200C96133 /* WebViewController.m */,
+				43301ED21DEE5A480043A890 /* GroupTableController.h */,
+				43301ED31DEE5A480043A890 /* GroupTableController.m */,
 				431EED8E1DED25F500C96133 /* Main.storyboard */,
 				431EED911DED25F500C96133 /* Assets.xcassets */,
 				431EED931DED25F500C96133 /* LaunchScreen.storyboard */,
@@ -108,6 +117,9 @@
 				431EEDAF1DED4F2700C96133 /* UIView+CustomRadio.m */,
 				431EEDB21DED4F3500C96133 /* NSString+Extension.h */,
 				431EEDB31DED4F3500C96133 /* NSString+Extension.m */,
+				43301ED51DEE6D410043A890 /* UIApplication+Extension.h */,
+				43301ED61DEE6D410043A890 /* UIApplication+Extension.m */,
+				43301EDB1DEE6E700043A890 /* Common.h */,
 			);
 			path = "扩展";
 			sourceTree = "<group>";
@@ -183,9 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43301ED71DEE6D410043A890 /* UIApplication+Extension.m in Sources */,
 				431EEDA41DED421200C96133 /* WebViewController.m in Sources */,
 				431EED8D1DED25F500C96133 /* ViewController.m in Sources */,
 				431EEDA71DED452C00C96133 /* ModalController.m in Sources */,
+				43301ED41DEE5A480043A890 /* GroupTableController.m in Sources */,
 				431EEDB01DED4F2700C96133 /* UIImage+Extension.m in Sources */,
 				431EEDB11DED4F2700C96133 /* UIView+CustomRadio.m in Sources */,
 				431EED8A1DED25F500C96133 /* AppDelegate.m in Sources */,
