@@ -10,7 +10,7 @@
 
 @implementation UIView (CustomRadio)
 
-- (void)customRadionWithCornerType:(nonnull  UIRectCorner)corner radio:(nonnull  CGFloat)radio {
+- (void)customRadionWithCornerType:(UIRectCorner)corner radio:(CGFloat)radio {
     //控制局部圆角问题
     UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:corner cornerRadii:CGSizeMake(radio, radio)];
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
