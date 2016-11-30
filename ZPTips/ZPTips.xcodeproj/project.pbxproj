@@ -20,6 +20,7 @@
 		431EEDB41DED4F3500C96133 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 431EEDB31DED4F3500C96133 /* NSString+Extension.m */; };
 		43301ED41DEE5A480043A890 /* GroupTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43301ED31DEE5A480043A890 /* GroupTableController.m */; };
 		43301ED71DEE6D410043A890 /* UIApplication+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 43301ED61DEE6D410043A890 /* UIApplication+Extension.m */; };
+		43301EE11DEE73E00043A890 /* UIView+FrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 43301EE01DEE73E00043A890 /* UIView+FrameExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +48,9 @@
 		43301ED31DEE5A480043A890 /* GroupTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTableController.m; sourceTree = "<group>"; };
 		43301ED51DEE6D410043A890 /* UIApplication+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Extension.h"; sourceTree = "<group>"; };
 		43301ED61DEE6D410043A890 /* UIApplication+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Extension.m"; sourceTree = "<group>"; };
-		43301EDB1DEE6E700043A890 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		43301EDF1DEE73E00043A890 /* UIView+FrameExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameExtension.h"; sourceTree = "<group>"; };
+		43301EE01DEE73E00043A890 /* UIView+FrameExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameExtension.m"; sourceTree = "<group>"; };
+		43301EE21DEE73F70043A890 /* ZPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPExtension.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +122,9 @@
 				431EEDB31DED4F3500C96133 /* NSString+Extension.m */,
 				43301ED51DEE6D410043A890 /* UIApplication+Extension.h */,
 				43301ED61DEE6D410043A890 /* UIApplication+Extension.m */,
-				43301EDB1DEE6E700043A890 /* Common.h */,
+				43301EDF1DEE73E00043A890 /* UIView+FrameExtension.h */,
+				43301EE01DEE73E00043A890 /* UIView+FrameExtension.m */,
+				43301EE21DEE73F70043A890 /* ZPExtension.h */,
 			);
 			path = "扩展";
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 				431EED8A1DED25F500C96133 /* AppDelegate.m in Sources */,
 				431EED871DED25F500C96133 /* main.m in Sources */,
 				431EEDB41DED4F3500C96133 /* NSString+Extension.m in Sources */,
+				43301EE11DEE73E00043A890 /* UIView+FrameExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
